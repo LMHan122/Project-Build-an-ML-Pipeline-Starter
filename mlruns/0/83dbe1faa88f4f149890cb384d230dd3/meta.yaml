@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/83dbe1faa88f4f149890cb384d230dd3/artifacts
+end_time: 1729104857094
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 83dbe1faa88f4f149890cb384d230dd3
+run_name: upset-wolf-999
+run_uuid: 83dbe1faa88f4f149890cb384d230dd3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729104724727
+status: 4
+tags: []
+user_id: lhan

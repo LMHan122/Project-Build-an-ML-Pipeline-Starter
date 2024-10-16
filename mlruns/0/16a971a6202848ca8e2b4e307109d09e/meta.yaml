@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/16a971a6202848ca8e2b4e307109d09e/artifacts
+end_time: 1729104519373
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 16a971a6202848ca8e2b4e307109d09e
+run_name: mercurial-asp-859
+run_uuid: 16a971a6202848ca8e2b4e307109d09e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729104468103
+status: 4
+tags: []
+user_id: lhan

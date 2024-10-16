@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c4ea2f574d1340ccb41b0e558d28a4aa/artifacts
+end_time: 1729104292779
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c4ea2f574d1340ccb41b0e558d28a4aa
+run_name: omniscient-seal-739
+run_uuid: c4ea2f574d1340ccb41b0e558d28a4aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729104224167
+status: 4
+tags: []
+user_id: lhan
