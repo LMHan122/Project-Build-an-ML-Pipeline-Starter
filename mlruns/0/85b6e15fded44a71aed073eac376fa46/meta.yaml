@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/85b6e15fded44a71aed073eac376fa46/artifacts
+end_time: 1729102328332
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 85b6e15fded44a71aed073eac376fa46
+run_name: amusing-carp-978
+run_uuid: 85b6e15fded44a71aed073eac376fa46
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729102214415
+status: 3
+tags: []
+user_id: lhan

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/40862d3e2f3e45f7be6209f5b8c913cb/artifacts
+end_time: 1729102328049
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 40862d3e2f3e45f7be6209f5b8c913cb
+run_name: vaunted-horse-772
+run_uuid: 40862d3e2f3e45f7be6209f5b8c913cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729102222484
+status: 3
+tags: []
+user_id: lhan
