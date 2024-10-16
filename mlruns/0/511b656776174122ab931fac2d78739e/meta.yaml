@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/511b656776174122ab931fac2d78739e/artifacts
+end_time: 1729118196497
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 511b656776174122ab931fac2d78739e
+run_name: resilient-dog-344
+run_uuid: 511b656776174122ab931fac2d78739e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729118177870
+status: 4
+tags: []
+user_id: lhan

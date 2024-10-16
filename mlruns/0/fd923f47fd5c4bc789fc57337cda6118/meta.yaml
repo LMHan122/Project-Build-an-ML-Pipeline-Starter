@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fd923f47fd5c4bc789fc57337cda6118/artifacts
+end_time: 1729118156696
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fd923f47fd5c4bc789fc57337cda6118
+run_name: thoughtful-trout-940
+run_uuid: fd923f47fd5c4bc789fc57337cda6118
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729118139807
+status: 4
+tags: []
+user_id: lhan

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3350d5abc5014de3acaef9d06ac21042/artifacts
+end_time: 1729118197209
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3350d5abc5014de3acaef9d06ac21042
+run_name: adaptable-moose-538
+run_uuid: 3350d5abc5014de3acaef9d06ac21042
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729118109414
+status: 4
+tags: []
+user_id: lhan

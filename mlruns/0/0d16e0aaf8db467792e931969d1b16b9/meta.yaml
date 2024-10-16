@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0d16e0aaf8db467792e931969d1b16b9/artifacts
+end_time: 1729118139648
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0d16e0aaf8db467792e931969d1b16b9
+run_name: delicate-doe-251
+run_uuid: 0d16e0aaf8db467792e931969d1b16b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729118117141
+status: 4
+tags: []
+user_id: lhan
