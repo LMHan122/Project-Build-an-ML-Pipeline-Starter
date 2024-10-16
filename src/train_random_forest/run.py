@@ -76,7 +76,7 @@ def go(args):
     # Fit the pipeline sk_pipe by calling the .fit method on X_train and y_train
     # YOUR CODE HERE
     
-    sk_pipe.fit(X_train, y_train)
+    sk_pipe.fit(X_train['processed_features'], y_train)
     ######################################
 
 
@@ -120,6 +120,8 @@ def go(args):
     )
     artifact.add_dir('random_forest_dir')
     run.log_artifact(artifact)
+
+    artifact.wait() #adding this but not sure if needed
 
     # Plot feature importance
     fig_feat_imp = plot_feature_importance(sk_pipe, processed_features)
@@ -236,7 +238,8 @@ def get_inference_pipeline(rf_config, max_tfidf_features):
 
     sk_pipe = Pipeline(
         steps =[
-        # YOUR CODE HERE
+            ("preprocessor", preprocessor),
+            ("random_forest", random_forest)
         ]
     )
 

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d2abc92ffd2e4756a710b4fae39f1a01/artifacts
+end_time: 1729115756272
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d2abc92ffd2e4756a710b4fae39f1a01
+run_name: enthused-squirrel-1
+run_uuid: d2abc92ffd2e4756a710b4fae39f1a01
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729115733713
+status: 4
+tags: []
+user_id: lhan

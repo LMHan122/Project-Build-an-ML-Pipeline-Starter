@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/831d477953784cc5a1745ab877a6801b/artifacts
+end_time: 1729115778505
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 831d477953784cc5a1745ab877a6801b
+run_name: nosy-colt-206
+run_uuid: 831d477953784cc5a1745ab877a6801b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729115756413
+status: 4
+tags: []
+user_id: lhan

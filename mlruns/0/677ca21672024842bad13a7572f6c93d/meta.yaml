@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/677ca21672024842bad13a7572f6c93d/artifacts
+end_time: 1729115733411
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 677ca21672024842bad13a7572f6c93d
+run_name: youthful-bee-20
+run_uuid: 677ca21672024842bad13a7572f6c93d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729115714041
+status: 4
+tags: []
+user_id: lhan
