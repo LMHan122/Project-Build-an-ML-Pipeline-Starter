@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/86e6bb7d71414323a62a830b5c576999/artifacts
+end_time: 1729118393207
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 86e6bb7d71414323a62a830b5c576999
+run_name: brawny-shark-140
+run_uuid: 86e6bb7d71414323a62a830b5c576999
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729118374054
+status: 4
+tags: []
+user_id: lhan

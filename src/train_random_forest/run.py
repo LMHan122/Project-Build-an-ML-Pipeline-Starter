@@ -76,7 +76,7 @@ def go(args):
     # Fit the pipeline sk_pipe by calling the .fit method on X_train and y_train
     # YOUR CODE HERE
     
-    sk_pipe.fit(X_train['processed_features'], y_train)
+    sk_pipe.fit(X_train[processed_features], y_train)
     ######################################
 
 

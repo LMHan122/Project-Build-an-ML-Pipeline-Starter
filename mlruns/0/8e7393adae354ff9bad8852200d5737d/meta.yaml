@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8e7393adae354ff9bad8852200d5737d/artifacts
+end_time: 1729118443597
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8e7393adae354ff9bad8852200d5737d
+run_name: enchanting-ray-556
+run_uuid: 8e7393adae354ff9bad8852200d5737d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729118426958
+status: 4
+tags: []
+user_id: lhan

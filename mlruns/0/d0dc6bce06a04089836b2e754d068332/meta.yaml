@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d0dc6bce06a04089836b2e754d068332/artifacts
+end_time: 1729118426820
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d0dc6bce06a04089836b2e754d068332
+run_name: incongruous-vole-50
+run_uuid: d0dc6bce06a04089836b2e754d068332
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729118408650
+status: 4
+tags: []
+user_id: lhan

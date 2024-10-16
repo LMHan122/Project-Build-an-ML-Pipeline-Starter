@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7d2e6639ecc845cc9890311145a490a8/artifacts
+end_time: 1729118981529
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7d2e6639ecc845cc9890311145a490a8
+run_name: angry-koi-307
+run_uuid: 7d2e6639ecc845cc9890311145a490a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729118961263
+status: 4
+tags: []
+user_id: lhan

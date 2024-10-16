@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/371956d99fce48e9a31d3e13091c54aa/artifacts
+end_time: 1729118408513
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 371956d99fce48e9a31d3e13091c54aa
+run_name: agreeable-boar-45
+run_uuid: 371956d99fce48e9a31d3e13091c54aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729118393346
+status: 4
+tags: []
+user_id: lhan

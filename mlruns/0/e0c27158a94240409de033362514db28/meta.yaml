@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e0c27158a94240409de033362514db28/artifacts
+end_time: 1729118982381
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e0c27158a94240409de033362514db28
+run_name: stately-lamb-382
+run_uuid: e0c27158a94240409de033362514db28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729118676769
+status: 4
+tags: []
+user_id: lhan
