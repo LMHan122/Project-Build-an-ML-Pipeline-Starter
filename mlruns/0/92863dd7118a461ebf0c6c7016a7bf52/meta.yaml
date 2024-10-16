@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/92863dd7118a461ebf0c6c7016a7bf52/artifacts
+end_time: 1729120169758
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 92863dd7118a461ebf0c6c7016a7bf52
+run_name: silent-hare-879
+run_uuid: 92863dd7118a461ebf0c6c7016a7bf52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729119889053
+status: 4
+tags: []
+user_id: lhan

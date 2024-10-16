@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/96202caffd1b42e886ed5fd1a0b2383d/artifacts
+end_time: 1729120168999
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 96202caffd1b42e886ed5fd1a0b2383d
+run_name: stylish-crow-32
+run_uuid: 96202caffd1b42e886ed5fd1a0b2383d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729120144946
+status: 4
+tags: []
+user_id: lhan

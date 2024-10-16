@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/89c86ce31a83430191d20d2f50d77372/artifacts
+end_time: 1729120122608
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 89c86ce31a83430191d20d2f50d77372
+run_name: capricious-moth-407
+run_uuid: 89c86ce31a83430191d20d2f50d77372
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729120102584
+status: 4
+tags: []
+user_id: lhan

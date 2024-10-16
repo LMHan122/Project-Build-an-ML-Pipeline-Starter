@@ -121,7 +121,6 @@ def go(args):
     artifact.add_dir('random_forest_dir')
     run.log_artifact(artifact)
 
-    artifact.wait() #adding this but not sure if needed
 
     # Plot feature importance
     fig_feat_imp = plot_feature_importance(sk_pipe, processed_features)
@@ -175,7 +174,7 @@ def get_inference_pipeline(rf_config, max_tfidf_features):
     # 2 - A OneHotEncoder() step to encode the variable
     non_ordinal_categorical_preproc = make_pipeline(
         # YOUR CODE HERE
-        SimpleImputer(strategy="most_frequent"), OrdinalEncoder()
+        SimpleImputer(strategy="most_frequent"), OneHotEncoder() #correcting encoder
     )
     ######################################
 

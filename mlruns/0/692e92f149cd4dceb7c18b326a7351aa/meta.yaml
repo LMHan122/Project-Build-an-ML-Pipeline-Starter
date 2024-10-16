@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/692e92f149cd4dceb7c18b326a7351aa/artifacts
+end_time: 1729120144658
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 692e92f149cd4dceb7c18b326a7351aa
+run_name: illustrious-ant-868
+run_uuid: 692e92f149cd4dceb7c18b326a7351aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729120123098
+status: 4
+tags: []
+user_id: lhan

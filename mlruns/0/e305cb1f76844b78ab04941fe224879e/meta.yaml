@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e305cb1f76844b78ab04941fe224879e/artifacts
+end_time: 1729120102272
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e305cb1f76844b78ab04941fe224879e
+run_name: grandiose-mouse-766
+run_uuid: e305cb1f76844b78ab04941fe224879e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729119999825
+status: 4
+tags: []
+user_id: lhan
