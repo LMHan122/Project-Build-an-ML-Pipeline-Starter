@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a203bc8bb0de44ca9c83b956865ee2e7/artifacts
+end_time: 1729107246963
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a203bc8bb0de44ca9c83b956865ee2e7
+run_name: wistful-slug-976
+run_uuid: a203bc8bb0de44ca9c83b956865ee2e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729107125267
+status: 3
+tags: []
+user_id: lhan
