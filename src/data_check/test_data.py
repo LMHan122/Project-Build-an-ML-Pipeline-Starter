@@ -71,4 +71,4 @@ def test_price_range(data, min_price, max_price):
     """
     Checks that the price is between the min and max price
     """
-    assert data['price'].between(min_price, max_price, inclusive="both")
+    assert data['price'].between(min_price, max_price, inclusive="both").all()
