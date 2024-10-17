@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/604de42e07cc44a28c562bedaf8e3059/artifacts
+end_time: 1729137625592
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 604de42e07cc44a28c562bedaf8e3059
+run_name: tasteful-hound-36
+run_uuid: 604de42e07cc44a28c562bedaf8e3059
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729137618526
+status: 3
+tags: []
+user_id: lhan
