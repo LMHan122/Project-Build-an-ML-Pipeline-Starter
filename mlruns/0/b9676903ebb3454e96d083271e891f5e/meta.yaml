@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b9676903ebb3454e96d083271e891f5e/artifacts
+end_time: 1729135166178
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b9676903ebb3454e96d083271e891f5e
+run_name: gentle-grouse-454
+run_uuid: b9676903ebb3454e96d083271e891f5e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729135162912
+status: 4
+tags: []
+user_id: lhan

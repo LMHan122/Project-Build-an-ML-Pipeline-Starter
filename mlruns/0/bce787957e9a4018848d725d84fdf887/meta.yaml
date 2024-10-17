@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/bce787957e9a4018848d725d84fdf887/artifacts
+end_time: 1729135812066
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bce787957e9a4018848d725d84fdf887
+run_name: righteous-bee-909
+run_uuid: bce787957e9a4018848d725d84fdf887
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729135624127
+status: 3
+tags: []
+user_id: lhan

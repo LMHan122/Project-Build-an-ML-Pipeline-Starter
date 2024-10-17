@@ -1,0 +1,30 @@
+2024-10-16 22:20:51,325 Minimum price: 10, Maximum price: 350
+2024-10-16 22:20:51,358 Preparing sklearn pipeline
+2024-10-16 22:20:51,360 Fitting
+2024-10-16 22:21:53,245 Scoring
+2024-10-16 22:21:53,597 Score: 0.5339406885517419
+2024-10-16 22:21:53,598 MAE: 33.565065789473685
+2024-10-16 22:21:53,599 Exporting model
+/home/lhan/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/mlflow/models/signature.py:212: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details.
+  inputs = _infer_schema(model_input) if model_input is not None else None
+****** x_val data types
+id                                         int64
+name                                      object
+host_id                                    int64
+host_name                                 object
+neighbourhood_group                     category
+neighbourhood                           category
+latitude                                 float64
+longitude                                float64
+room_type                               category
+minimum_nights                             int64
+number_of_reviews                          int64
+last_review                       datetime64[ns]
+reviews_per_month                        float64
+calculated_host_listings_count             int64
+availability_365                           int64
+dtype: object
+******
+/home/lhan/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/_distutils_hack/__init__.py:31: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+[34m[1mwandb[39m[22m: Adding directory to artifact (./random_forest_dir)... Done. 0.1s

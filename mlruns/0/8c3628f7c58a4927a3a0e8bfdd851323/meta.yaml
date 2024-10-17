@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8c3628f7c58a4927a3a0e8bfdd851323/artifacts
+end_time: 1729135173753
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8c3628f7c58a4927a3a0e8bfdd851323
+run_name: bold-toad-595
+run_uuid: 8c3628f7c58a4927a3a0e8bfdd851323
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729135170218
+status: 4
+tags: []
+user_id: lhan

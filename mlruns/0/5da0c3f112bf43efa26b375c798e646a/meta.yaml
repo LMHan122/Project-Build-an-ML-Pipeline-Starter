@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5da0c3f112bf43efa26b375c798e646a/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5da0c3f112bf43efa26b375c798e646a
+run_name: enchanting-gnu-560
+run_uuid: 5da0c3f112bf43efa26b375c798e646a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729134741735
+status: 1
+tags: []
+user_id: lhan

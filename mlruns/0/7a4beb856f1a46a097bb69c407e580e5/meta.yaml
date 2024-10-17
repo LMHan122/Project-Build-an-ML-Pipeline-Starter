@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7a4beb856f1a46a097bb69c407e580e5/artifacts
+end_time: 1729135337861
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7a4beb856f1a46a097bb69c407e580e5
+run_name: fun-deer-663
+run_uuid: 7a4beb856f1a46a097bb69c407e580e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729135237327
+status: 3
+tags: []
+user_id: lhan

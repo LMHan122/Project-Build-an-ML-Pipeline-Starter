@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f3f395fca8dd4f1a93300b2c15cc766c/artifacts
+end_time: 1729134741457
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f3f395fca8dd4f1a93300b2c15cc766c
+run_name: bemused-mole-367
+run_uuid: f3f395fca8dd4f1a93300b2c15cc766c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729134645669
+status: 4
+tags: []
+user_id: lhan

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0ec04fa823674c1988a8100f97d54dac/artifacts
+end_time: 1729134967017
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0ec04fa823674c1988a8100f97d54dac
+run_name: aged-crab-662
+run_uuid: 0ec04fa823674c1988a8100f97d54dac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729134871199
+status: 4
+tags: []
+user_id: lhan

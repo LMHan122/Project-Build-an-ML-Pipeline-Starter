@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fb079d0e18134bc6ae5416bb17eaef89/artifacts
+end_time: 1729135518489
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fb079d0e18134bc6ae5416bb17eaef89
+run_name: gentle-horse-983
+run_uuid: fb079d0e18134bc6ae5416bb17eaef89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729135338143
+status: 3
+tags: []
+user_id: lhan

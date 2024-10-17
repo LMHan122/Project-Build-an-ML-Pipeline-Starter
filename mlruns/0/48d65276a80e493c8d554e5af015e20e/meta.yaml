@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/48d65276a80e493c8d554e5af015e20e/artifacts
+end_time: 1729135169953
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 48d65276a80e493c8d554e5af015e20e
+run_name: colorful-fly-913
+run_uuid: 48d65276a80e493c8d554e5af015e20e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729135166441
+status: 4
+tags: []
+user_id: lhan

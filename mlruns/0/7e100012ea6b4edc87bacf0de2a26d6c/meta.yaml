@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7e100012ea6b4edc87bacf0de2a26d6c/artifacts
+end_time: 1729135178046
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7e100012ea6b4edc87bacf0de2a26d6c
+run_name: charming-gnu-883
+run_uuid: 7e100012ea6b4edc87bacf0de2a26d6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729135155884
+status: 4
+tags: []
+user_id: lhan

@@ -93,10 +93,10 @@ def go(args):
     logger.info("Exporting model")
 
     #feature engineering
-    X_val['name'] = X_val['name'].fillna('', inplace=True).astype(str)
-    X_val['last_review'] = X_val['last_review'].fillna('2010-01-01', inplace=True)
+    X_val['name'] = X_val['name'].fillna('').astype('str')
+    X_val['last_review'] = X_val['last_review'].fillna('2010-01-01')
     X_val['last_review'] = pd.to_datetime(X_val['last_review'], format='%Y-%m-%d')
-    X_val['host_name'] = X_val['host_name'].fillna('', inplace=True).astype(str)
+    X_val['host_name'] = X_val['host_name'].fillna('').astype('str')
     X_val['neighbourhood_group'] = X_val['neighbourhood_group'].astype('category')
     X_val['neighbourhood'] = X_val['neighbourhood'].astype('category')
     X_val['room_type'] = X_val['room_type'].astype('category')
@@ -109,9 +109,7 @@ def go(args):
     ######################################
     # Save the sk_pipe pipeline as a mlflow.sklearn model in the directory "random_forest_dir"
     # HINT: use mlflow.sklearn.save_model
-    print('****** x_val data types')
-    print(X_val.dtypes)
-    print('******')
+
     signature = mlflow.models.infer_signature(X_val[processed_features], y_pred)
     mlflow.sklearn.save_model(
         sk_pipe,
