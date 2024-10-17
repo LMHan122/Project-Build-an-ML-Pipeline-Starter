@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ada3e114b82440449040a58ef0110553/artifacts
+end_time: 1729134218625
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ada3e114b82440449040a58ef0110553
+run_name: fortunate-wolf-752
+run_uuid: ada3e114b82440449040a58ef0110553
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729134136277
+status: 4
+tags: []
+user_id: lhan

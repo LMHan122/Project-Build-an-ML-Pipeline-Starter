@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/867a31d1e6c149d99841fe8aa6173497/artifacts
+end_time: 1729134380087
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 867a31d1e6c149d99841fe8aa6173497
+run_name: crawling-shark-708
+run_uuid: 867a31d1e6c149d99841fe8aa6173497
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729134218885
+status: 4
+tags: []
+user_id: lhan

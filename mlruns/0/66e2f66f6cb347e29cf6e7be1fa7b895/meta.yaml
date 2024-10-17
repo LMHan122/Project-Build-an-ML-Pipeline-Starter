@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/66e2f66f6cb347e29cf6e7be1fa7b895/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 66e2f66f6cb347e29cf6e7be1fa7b895
+run_name: calm-newt-265
+run_uuid: 66e2f66f6cb347e29cf6e7be1fa7b895
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729134129007
+status: 1
+tags: []
+user_id: lhan

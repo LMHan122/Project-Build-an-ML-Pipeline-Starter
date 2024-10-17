@@ -1,0 +1,13 @@
+2024-10-16 21:55:33,945 Minimum price: 10, Maximum price: 350
+2024-10-16 21:55:33,975 Preparing sklearn pipeline
+2024-10-16 21:55:33,976 Fitting
+2024-10-16 21:57:48,306 Scoring
+2024-10-16 21:57:48,926 Score: 0.5340342040659455
+2024-10-16 21:57:48,927 MAE: 33.54348026315789
+2024-10-16 21:57:48,928 Exporting model
+Traceback (most recent call last):
+  File "/home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 315, in <module>
+    go(args)
+  File "/home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 96, in go
+    x_val['name'].fillna('', inplace=True).astype(str)
+NameError: name 'x_val' is not defined

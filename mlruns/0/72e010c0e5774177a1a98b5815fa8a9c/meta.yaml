@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/72e010c0e5774177a1a98b5815fa8a9c/artifacts
+end_time: 1729134468581
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 72e010c0e5774177a1a98b5815fa8a9c
+run_name: adventurous-newt-109
+run_uuid: 72e010c0e5774177a1a98b5815fa8a9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729134380378
+status: 4
+tags: []
+user_id: lhan

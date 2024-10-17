@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8d064e6cb2ef4bc0890046f3a0047016/artifacts
+end_time: 1729134119111
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d064e6cb2ef4bc0890046f3a0047016
+run_name: zealous-asp-921
+run_uuid: 8d064e6cb2ef4bc0890046f3a0047016
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729133623066
+status: 4
+tags: []
+user_id: lhan

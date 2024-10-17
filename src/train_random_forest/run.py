@@ -93,14 +93,13 @@ def go(args):
     logger.info("Exporting model")
 
     #feature engineering
-    x_val['name'].fillna('', inplace=True).astype(str)
-    x_val['last_review'].fillna('2010-01-01', inplace=True)
-    x_val['last_review'] = pd.to_datetime(x_val['last_review'], format='%Y-%m-%d')
-    x_val['host_name'].fillna('', inplace=True).astype(str)
-    x_val['neighbourhood_group'].astype('category')
-    x_val['neighbourhood'].astype('category')
-
-
+    X_val['name'] = X_val['name'].fillna('', inplace=True).astype(str)
+    X_val['last_review'] = X_val['last_review'].fillna('2010-01-01', inplace=True)
+    X_val['last_review'] = pd.to_datetime(X_val['last_review'], format='%Y-%m-%d')
+    X_val['host_name'] = X_val['host_name'].fillna('', inplace=True).astype(str)
+    X_val['neighbourhood_group'] = X_val['neighbourhood_group'].astype('category')
+    X_val['neighbourhood'] = X_val['neighbourhood'].astype('category')
+    X_val['room_type'] = X_val['room_type'].astype('category')
 
 
     # Save model package in the MLFlow sklearn format
