@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/bf6b7ea1a3624de1badefb186b03c3e0/artifacts
+end_time: 1729138581928
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bf6b7ea1a3624de1badefb186b03c3e0
+run_name: ambitious-rook-218
+run_uuid: bf6b7ea1a3624de1badefb186b03c3e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729138558815
+status: 3
+tags: []
+user_id: lhan

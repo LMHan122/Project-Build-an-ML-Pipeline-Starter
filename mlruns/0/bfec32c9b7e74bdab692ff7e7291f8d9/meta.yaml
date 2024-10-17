@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/bfec32c9b7e74bdab692ff7e7291f8d9/artifacts
+end_time: 1729138596707
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bfec32c9b7e74bdab692ff7e7291f8d9
+run_name: resilient-mule-217
+run_uuid: bfec32c9b7e74bdab692ff7e7291f8d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729138581942
+status: 4
+tags: []
+user_id: lhan
