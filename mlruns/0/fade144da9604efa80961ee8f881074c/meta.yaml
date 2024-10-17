@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fade144da9604efa80961ee8f881074c/artifacts
+end_time: 1729125933819
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fade144da9604efa80961ee8f881074c
+run_name: awesome-fish-137
+run_uuid: fade144da9604efa80961ee8f881074c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729125782548
+status: 4
+tags: []
+user_id: lhan

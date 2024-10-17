@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/95e02202c9ab4fdea49765c9a451015b/artifacts
+end_time: 1729125934488
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 95e02202c9ab4fdea49765c9a451015b
+run_name: dapper-bug-688
+run_uuid: 95e02202c9ab4fdea49765c9a451015b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729125265639
+status: 4
+tags: []
+user_id: lhan

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c2333e3f5e1746b48593f9a29cc5f700/artifacts
+end_time: 1729125690846
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c2333e3f5e1746b48593f9a29cc5f700
+run_name: painted-crab-905
+run_uuid: c2333e3f5e1746b48593f9a29cc5f700
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729125540335
+status: 4
+tags: []
+user_id: lhan

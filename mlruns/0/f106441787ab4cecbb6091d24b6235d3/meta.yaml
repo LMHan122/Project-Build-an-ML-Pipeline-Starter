@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f106441787ab4cecbb6091d24b6235d3/artifacts
+end_time: 1729125782223
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f106441787ab4cecbb6091d24b6235d3
+run_name: incongruous-elk-557
+run_uuid: f106441787ab4cecbb6091d24b6235d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729125691133
+status: 4
+tags: []
+user_id: lhan
