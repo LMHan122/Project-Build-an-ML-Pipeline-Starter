@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b952b69217d248df89f9cffc5cbac6a9/artifacts
+end_time: 1729129520208
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b952b69217d248df89f9cffc5cbac6a9
+run_name: stylish-tern-49
+run_uuid: b952b69217d248df89f9cffc5cbac6a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729129430920
+status: 4
+tags: []
+user_id: lhan
