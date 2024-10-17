@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f73c8044f39d4960bd76d791f33a20b3/artifacts
+end_time: 1729128490146
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f73c8044f39d4960bd76d791f33a20b3
+run_name: caring-toad-714
+run_uuid: f73c8044f39d4960bd76d791f33a20b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729128408551
+status: 3
+tags: []
+user_id: lhan

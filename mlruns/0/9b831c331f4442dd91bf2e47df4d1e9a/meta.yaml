@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9b831c331f4442dd91bf2e47df4d1e9a/artifacts
+end_time: 1729129088297
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9b831c331f4442dd91bf2e47df4d1e9a
+run_name: languid-moose-865
+run_uuid: 9b831c331f4442dd91bf2e47df4d1e9a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729128993838
+status: 4
+tags: []
+user_id: lhan

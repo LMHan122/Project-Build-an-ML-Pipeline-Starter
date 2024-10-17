@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4073cf9b60564a89804a4f0acb8ba23c/artifacts
+end_time: 1729128993539
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4073cf9b60564a89804a4f0acb8ba23c
+run_name: unique-kite-773
+run_uuid: 4073cf9b60564a89804a4f0acb8ba23c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729128847844
+status: 4
+tags: []
+user_id: lhan

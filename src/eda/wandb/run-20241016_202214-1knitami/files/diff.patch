@@ -1,0 +1,40 @@
+diff --git a/config.yaml b/config.yaml
+index 1d5c101..fe82089 100644
+--- a/config.yaml
++++ b/config.yaml
+@@ -32,7 +32,7 @@ modeling:
+     min_samples_leaf: 3
+     # Here -1 means all available cores
+     n_jobs: -1
+-    criterion: 'absolute_error' #changing per https://knowledge.udacity.com/questions/1052015
++    criterion: absolute_error #changing per https://knowledge.udacity.com/questions/1052015
+     max_features: 0.5
+     # DO not change the following
+     oob_score: true
+diff --git a/src/eda/wandb/debug-internal.log b/src/eda/wandb/debug-internal.log
+index f34c32e..d273035 120000
+--- a/src/eda/wandb/debug-internal.log
++++ b/src/eda/wandb/debug-internal.log
+@@ -1 +1 @@
+-run-20241014_194200-od047g9i/logs/debug-internal.log
+\ No newline at end of file
++run-20241016_202214-1knitami/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/src/eda/wandb/debug.log b/src/eda/wandb/debug.log
+index 5c05ecf..9f25dba 120000
+--- a/src/eda/wandb/debug.log
++++ b/src/eda/wandb/debug.log
+@@ -1 +1 @@
+-run-20241014_194200-od047g9i/logs/debug.log
+\ No newline at end of file
++run-20241016_202214-1knitami/logs/debug.log
+\ No newline at end of file
+diff --git a/src/eda/wandb/latest-run b/src/eda/wandb/latest-run
+index 0f13b83..91cfec5 120000
+--- a/src/eda/wandb/latest-run
++++ b/src/eda/wandb/latest-run
+@@ -1 +1 @@
+-run-20241014_194200-od047g9i
+\ No newline at end of file
++run-20241016_202214-1knitami
+\ No newline at end of file

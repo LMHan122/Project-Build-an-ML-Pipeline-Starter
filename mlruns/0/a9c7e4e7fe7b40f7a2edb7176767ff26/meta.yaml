@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a9c7e4e7fe7b40f7a2edb7176767ff26/artifacts
+end_time: 1729128338847
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a9c7e4e7fe7b40f7a2edb7176767ff26
+run_name: valuable-moth-163
+run_uuid: a9c7e4e7fe7b40f7a2edb7176767ff26
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729128284731
+status: 3
+tags: []
+user_id: lhan

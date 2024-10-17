@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7e7f5095932b414cb2957d6014103e56/artifacts
+end_time: 1729129241701
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7e7f5095932b414cb2957d6014103e56
+run_name: caring-calf-792
+run_uuid: 7e7f5095932b414cb2957d6014103e56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729129088583
+status: 4
+tags: []
+user_id: lhan

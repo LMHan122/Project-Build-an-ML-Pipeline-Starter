@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/22540e0751344a068e1e408c9df9c40f/artifacts
+end_time: 1729128847547
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 22540e0751344a068e1e408c9df9c40f
+run_name: gregarious-ape-142
+run_uuid: 22540e0751344a068e1e408c9df9c40f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729128697124
+status: 4
+tags: []
+user_id: lhan
