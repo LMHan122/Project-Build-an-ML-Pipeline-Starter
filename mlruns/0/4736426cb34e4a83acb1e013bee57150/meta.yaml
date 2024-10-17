@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4736426cb34e4a83acb1e013bee57150/artifacts
+end_time: 1729123442824
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4736426cb34e4a83acb1e013bee57150
+run_name: unique-mink-270
+run_uuid: 4736426cb34e4a83acb1e013bee57150
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729123278586
+status: 4
+tags: []
+user_id: lhan

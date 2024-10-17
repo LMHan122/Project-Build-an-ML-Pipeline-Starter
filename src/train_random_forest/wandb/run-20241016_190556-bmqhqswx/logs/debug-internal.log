@@ -1,0 +1,252 @@
+2024-10-16 19:05:56,310 INFO    StreamThr :94803 [internal.py:wandb_internal():86] W&B internal server running at pid: 94803, started at: 2024-10-16 19:05:56.308859
+2024-10-16 19:05:56,316 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status
+2024-10-16 19:05:56,324 INFO    WriterThread:94803 [datastore.py:open_for_write():85] open: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/run-bmqhqswx.wandb
+2024-10-16 19:05:56,326 DEBUG   SenderThread:94803 [sender.py:send():380] send: header
+2024-10-16 19:05:56,326 DEBUG   SenderThread:94803 [sender.py:send():380] send: run
+2024-10-16 19:05:56,905 INFO    SenderThread:94803 [dir_watcher.py:__init__():211] watching files in: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files
+2024-10-16 19:05:56,906 INFO    SenderThread:94803 [sender.py:_start_run_threads():1124] run started: bmqhqswx with start time 1729123556.30877
+2024-10-16 19:05:56,917 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: check_version
+2024-10-16 19:05:56,918 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: check_version
+2024-10-16 19:05:57,106 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: run_start
+2024-10-16 19:05:57,107 DEBUG   HandlerThread:94803 [system_info.py:__init__():32] System info init
+2024-10-16 19:05:57,107 DEBUG   HandlerThread:94803 [system_info.py:__init__():47] System info init done
+2024-10-16 19:05:57,108 INFO    HandlerThread:94803 [system_monitor.py:start():194] Starting system monitor
+2024-10-16 19:05:57,108 INFO    SystemMonitor:94803 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-10-16 19:05:57,108 INFO    HandlerThread:94803 [system_monitor.py:probe():214] Collecting system info
+2024-10-16 19:05:57,111 INFO    SystemMonitor:94803 [interfaces.py:start():190] Started cpu monitoring
+2024-10-16 19:05:57,115 INFO    SystemMonitor:94803 [interfaces.py:start():190] Started disk monitoring
+2024-10-16 19:05:57,118 INFO    SystemMonitor:94803 [interfaces.py:start():190] Started memory monitoring
+2024-10-16 19:05:57,123 INFO    SystemMonitor:94803 [interfaces.py:start():190] Started network monitoring
+2024-10-16 19:05:57,148 DEBUG   HandlerThread:94803 [system_info.py:probe():196] Probing system
+2024-10-16 19:05:57,267 DEBUG   HandlerThread:94803 [system_info.py:_probe_git():181] Probing git
+2024-10-16 19:05:57,283 DEBUG   HandlerThread:94803 [system_info.py:_probe_git():189] Probing git done
+2024-10-16 19:05:57,284 DEBUG   HandlerThread:94803 [system_info.py:probe():244] Probing system done
+2024-10-16 19:05:57,284 DEBUG   HandlerThread:94803 [system_monitor.py:probe():223] {'os': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39', 'python': '3.10.15', 'heartbeatAt': '2024-10-17T00:05:57.149470', 'startedAt': '2024-10-17T00:05:56.296169', 'docker': None, 'cuda': None, 'args': ('--trainval_artifact', 'trainval_data.csv:latest', '--val_size', '0.2', '--random_seed', '42', '--stratify_by', 'neighbourhood_group', '--rf_config', '/home/lhan/Project-Build-an-ML-Pipeline-Starter/multirun/2024-10-16/18-58-41/3/rf_config.json', '--max_tfidf_features', '5', '--output_artifact', 'random_forest_export'), 'state': 'running', 'program': '/home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py', 'codePathLocal': 'run.py', 'codePath': 'src/train_random_forest/run.py', 'git': {'remote': 'https://github.com/LMHan122/Project-Build-an-ML-Pipeline-Starter.git', 'commit': '5df4afde4df4500fc3ba7327ac85b83946feb59e'}, 'email': 'lesliemhanson@gmail.com', 'root': '/home/lhan/Project-Build-an-ML-Pipeline-Starter', 'host': 'DESKTOP-P9RK2MK', 'username': 'lhan', 'executable': '/home/lhan/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1800.0, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 1800.0, 'min': 0.0, 'max': 0.0}, {'current': 1800.0, 'min': 0.0, 'max': 0.0}, {'current': 1800.0, 'min': 0.0, 'max': 0.0}, {'current': 1800.0, 'min': 0.0, 'max': 0.0}, {'current': 1800.0, 'min': 0.0, 'max': 0.0}, {'current': 1800.0, 'min': 0.0, 'max': 0.0}, {'current': 1800.0, 'min': 0.0, 'max': 0.0}, {'current': 1800.0, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 14.824974060058594}}, 'memory': {'total': 7.693393707275391}}
+2024-10-16 19:05:57,284 INFO    HandlerThread:94803 [system_monitor.py:probe():224] Finished collecting system info
+2024-10-16 19:05:57,285 INFO    HandlerThread:94803 [system_monitor.py:probe():227] Publishing system info
+2024-10-16 19:05:57,285 DEBUG   HandlerThread:94803 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-10-16 19:05:57,285 DEBUG   HandlerThread:94803 [system_info.py:_save_pip():68] Saving pip packages done
+2024-10-16 19:05:57,286 DEBUG   HandlerThread:94803 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-10-16 19:05:57,934 INFO    Thread-12 :94803 [dir_watcher.py:_on_file_created():271] file/dir created: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/conda-environment.yaml
+2024-10-16 19:05:57,934 INFO    Thread-12 :94803 [dir_watcher.py:_on_file_created():271] file/dir created: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/requirements.txt
+2024-10-16 19:06:00,533 DEBUG   HandlerThread:94803 [system_info.py:_save_conda():87] Saving conda packages done
+2024-10-16 19:06:00,534 INFO    HandlerThread:94803 [system_monitor.py:probe():229] Finished publishing system info
+2024-10-16 19:06:00,538 DEBUG   SenderThread:94803 [sender.py:send():380] send: files
+2024-10-16 19:06:00,539 INFO    SenderThread:94803 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-10-16 19:06:00,551 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-16 19:06:00,552 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: stop_status
+2024-10-16 19:06:00,560 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-16 19:06:00,756 DEBUG   SenderThread:94803 [sender.py:send():380] send: telemetry
+2024-10-16 19:06:00,757 DEBUG   SenderThread:94803 [sender.py:send():380] send: config
+2024-10-16 19:06:00,757 DEBUG   SenderThread:94803 [sender.py:send():380] send: config
+2024-10-16 19:06:00,996 INFO    wandb-upload_0:94803 [upload_job.py:push():131] Uploaded file /tmp/tmpq3_dfu2awandb/2i4xzk7s-wandb-metadata.json
+2024-10-16 19:06:01,001 INFO    Thread-12 :94803 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/conda-environment.yaml
+2024-10-16 19:06:01,002 INFO    Thread-12 :94803 [dir_watcher.py:_on_file_created():271] file/dir created: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/wandb-metadata.json
+2024-10-16 19:06:01,087 DEBUG   SenderThread:94803 [sender.py:send():380] send: use_artifact
+2024-10-16 19:06:01,504 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:06:02,002 INFO    Thread-12 :94803 [dir_watcher.py:_on_file_created():271] file/dir created: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/output.log
+2024-10-16 19:06:04,004 INFO    Thread-12 :94803 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/output.log
+2024-10-16 19:06:06,538 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:06:11,541 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:06:15,549 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-16 19:06:15,550 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: stop_status
+2024-10-16 19:06:15,556 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-16 19:06:16,634 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:06:21,637 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:06:26,654 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:06:29,031 INFO    Thread-12 :94803 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/config.yaml
+2024-10-16 19:06:30,550 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-16 19:06:30,552 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: stop_status
+2024-10-16 19:06:30,609 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-16 19:06:33,726 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:06:38,730 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:06:43,733 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:06:45,551 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-16 19:06:45,552 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: stop_status
+2024-10-16 19:06:45,604 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-16 19:06:49,656 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:06:54,658 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:06:57,127 DEBUG   SystemMonitor:94803 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-10-16 19:06:57,129 DEBUG   SenderThread:94803 [sender.py:send():380] send: stats
+2024-10-16 19:07:00,131 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:07:00,551 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-16 19:07:00,553 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: stop_status
+2024-10-16 19:07:00,594 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-16 19:07:05,715 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:07:10,718 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:07:15,553 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-16 19:07:15,554 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: stop_status
+2024-10-16 19:07:15,611 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-16 19:07:16,636 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:07:21,641 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:07:26,644 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:07:27,130 DEBUG   SenderThread:94803 [sender.py:send():380] send: stats
+2024-10-16 19:07:30,552 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-16 19:07:30,554 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: stop_status
+2024-10-16 19:07:30,602 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-16 19:07:31,700 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:07:36,703 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:07:41,705 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:07:45,553 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-16 19:07:45,554 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: stop_status
+2024-10-16 19:07:45,611 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-16 19:07:46,800 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:07:51,801 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:07:56,803 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:07:57,132 DEBUG   SenderThread:94803 [sender.py:send():380] send: stats
+2024-10-16 19:08:00,553 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: stop_status
+2024-10-16 19:08:00,554 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: stop_status
+2024-10-16 19:08:00,611 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-16 19:08:02,678 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:08:07,681 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:08:12,332 DEBUG   SenderThread:94803 [sender.py:send():380] send: exit
+2024-10-16 19:08:12,332 INFO    SenderThread:94803 [sender.py:send_exit():585] handling exit code: 1
+2024-10-16 19:08:12,332 INFO    SenderThread:94803 [sender.py:send_exit():587] handling runtime: 135
+2024-10-16 19:08:12,336 INFO    SenderThread:94803 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-16 19:08:12,337 INFO    SenderThread:94803 [sender.py:send_exit():593] send defer
+2024-10-16 19:08:12,337 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: defer
+2024-10-16 19:08:12,337 INFO    HandlerThread:94803 [handler.py:handle_request_defer():172] handle defer: 0
+2024-10-16 19:08:12,338 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: defer
+2024-10-16 19:08:12,338 INFO    SenderThread:94803 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-10-16 19:08:12,339 INFO    SenderThread:94803 [sender.py:transition_state():613] send defer: 1
+2024-10-16 19:08:12,339 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: defer
+2024-10-16 19:08:12,340 INFO    HandlerThread:94803 [handler.py:handle_request_defer():172] handle defer: 1
+2024-10-16 19:08:12,340 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: defer
+2024-10-16 19:08:12,341 INFO    SenderThread:94803 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-10-16 19:08:12,341 INFO    SenderThread:94803 [sender.py:transition_state():613] send defer: 2
+2024-10-16 19:08:12,341 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: defer
+2024-10-16 19:08:12,341 INFO    HandlerThread:94803 [handler.py:handle_request_defer():172] handle defer: 2
+2024-10-16 19:08:12,341 INFO    HandlerThread:94803 [system_monitor.py:finish():203] Stopping system monitor
+2024-10-16 19:08:12,344 INFO    HandlerThread:94803 [interfaces.py:finish():202] Joined cpu monitor
+2024-10-16 19:08:12,344 DEBUG   SystemMonitor:94803 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-10-16 19:08:12,344 INFO    HandlerThread:94803 [interfaces.py:finish():202] Joined disk monitor
+2024-10-16 19:08:12,345 DEBUG   SystemMonitor:94803 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-10-16 19:08:12,346 INFO    HandlerThread:94803 [interfaces.py:finish():202] Joined memory monitor
+2024-10-16 19:08:12,348 INFO    HandlerThread:94803 [interfaces.py:finish():202] Joined network monitor
+2024-10-16 19:08:12,350 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: defer
+2024-10-16 19:08:12,350 INFO    SenderThread:94803 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-10-16 19:08:12,350 INFO    SenderThread:94803 [sender.py:transition_state():613] send defer: 3
+2024-10-16 19:08:12,351 DEBUG   SenderThread:94803 [sender.py:send():380] send: stats
+2024-10-16 19:08:12,351 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: defer
+2024-10-16 19:08:12,353 INFO    HandlerThread:94803 [handler.py:handle_request_defer():172] handle defer: 3
+2024-10-16 19:08:12,354 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: defer
+2024-10-16 19:08:12,354 INFO    SenderThread:94803 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-10-16 19:08:12,354 INFO    SenderThread:94803 [sender.py:transition_state():613] send defer: 4
+2024-10-16 19:08:12,354 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: defer
+2024-10-16 19:08:12,355 INFO    HandlerThread:94803 [handler.py:handle_request_defer():172] handle defer: 4
+2024-10-16 19:08:12,355 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: defer
+2024-10-16 19:08:12,356 INFO    SenderThread:94803 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-10-16 19:08:12,356 INFO    SenderThread:94803 [sender.py:transition_state():613] send defer: 5
+2024-10-16 19:08:12,356 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: defer
+2024-10-16 19:08:12,356 INFO    HandlerThread:94803 [handler.py:handle_request_defer():172] handle defer: 5
+2024-10-16 19:08:12,357 DEBUG   SenderThread:94803 [sender.py:send():380] send: summary
+2024-10-16 19:08:12,357 INFO    SenderThread:94803 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-10-16 19:08:12,358 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: defer
+2024-10-16 19:08:12,358 INFO    SenderThread:94803 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-10-16 19:08:12,358 INFO    SenderThread:94803 [sender.py:transition_state():613] send defer: 6
+2024-10-16 19:08:12,358 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: defer
+2024-10-16 19:08:12,359 INFO    HandlerThread:94803 [handler.py:handle_request_defer():172] handle defer: 6
+2024-10-16 19:08:12,359 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: defer
+2024-10-16 19:08:12,359 INFO    SenderThread:94803 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-10-16 19:08:12,360 INFO    SenderThread:94803 [sender.py:transition_state():613] send defer: 7
+2024-10-16 19:08:12,360 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:08:12,361 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: defer
+2024-10-16 19:08:12,361 INFO    HandlerThread:94803 [handler.py:handle_request_defer():172] handle defer: 7
+2024-10-16 19:08:12,362 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: defer
+2024-10-16 19:08:12,362 INFO    SenderThread:94803 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-10-16 19:08:13,157 INFO    Thread-12 :94803 [dir_watcher.py:_on_file_created():271] file/dir created: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/wandb-summary.json
+2024-10-16 19:08:13,322 INFO    SenderThread:94803 [sender.py:transition_state():613] send defer: 8
+2024-10-16 19:08:13,322 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: defer
+2024-10-16 19:08:13,323 INFO    HandlerThread:94803 [handler.py:handle_request_defer():172] handle defer: 8
+2024-10-16 19:08:13,323 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: defer
+2024-10-16 19:08:13,324 INFO    SenderThread:94803 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-10-16 19:08:13,324 INFO    SenderThread:94803 [job_builder.py:build():298] Attempting to build job artifact
+2024-10-16 19:08:13,324 INFO    SenderThread:94803 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-10-16 19:08:13,333 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: poll_exit
+2024-10-16 19:08:13,358 INFO    SenderThread:94803 [job_builder.py:build():404] adding wandb-job metadata file
+2024-10-16 19:08:13,370 INFO    SenderThread:94803 [sender.py:transition_state():613] send defer: 9
+2024-10-16 19:08:13,371 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: poll_exit
+2024-10-16 19:08:13,372 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: defer
+2024-10-16 19:08:13,372 DEBUG   SenderThread:94803 [sender.py:send():380] send: artifact
+2024-10-16 19:08:13,373 INFO    HandlerThread:94803 [handler.py:handle_request_defer():172] handle defer: 9
+2024-10-16 19:08:13,693 INFO    SenderThread:94803 [sender.py:send_artifact():1458] sent artifact job-https___github.com_LMHan122_Project-Build-an-ML-Pipeline-Starter.git_src_train_random_forest_run.py - {'id': 'QXJ0aWZhY3Q6MTI4MzU2MDQ2MA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3ODI0NzAwMA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI4MzU2MDQ2MA==', 'versionIndex': 4}}}
+2024-10-16 19:08:13,693 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: defer
+2024-10-16 19:08:13,694 INFO    SenderThread:94803 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-10-16 19:08:13,694 INFO    SenderThread:94803 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-10-16 19:08:14,166 INFO    Thread-12 :94803 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/output.log
+2024-10-16 19:08:14,169 INFO    SenderThread:94803 [dir_watcher.py:finish():388] scan: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files
+2024-10-16 19:08:14,170 INFO    SenderThread:94803 [dir_watcher.py:finish():402] scan save: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/config.yaml config.yaml
+2024-10-16 19:08:14,171 INFO    SenderThread:94803 [dir_watcher.py:finish():402] scan save: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/output.log output.log
+2024-10-16 19:08:14,180 INFO    SenderThread:94803 [dir_watcher.py:finish():402] scan save: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/wandb-metadata.json wandb-metadata.json
+2024-10-16 19:08:14,181 INFO    SenderThread:94803 [dir_watcher.py:finish():402] scan save: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/conda-environment.yaml conda-environment.yaml
+2024-10-16 19:08:14,191 INFO    SenderThread:94803 [dir_watcher.py:finish():402] scan save: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/wandb-summary.json wandb-summary.json
+2024-10-16 19:08:14,200 INFO    SenderThread:94803 [dir_watcher.py:finish():402] scan save: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/requirements.txt requirements.txt
+2024-10-16 19:08:14,206 INFO    SenderThread:94803 [sender.py:transition_state():613] send defer: 10
+2024-10-16 19:08:14,211 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: defer
+2024-10-16 19:08:14,211 INFO    HandlerThread:94803 [handler.py:handle_request_defer():172] handle defer: 10
+2024-10-16 19:08:14,212 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: defer
+2024-10-16 19:08:14,212 INFO    SenderThread:94803 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-10-16 19:08:14,212 INFO    SenderThread:94803 [file_pusher.py:finish():175] shutting down file pusher
+2024-10-16 19:08:14,337 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: poll_exit
+2024-10-16 19:08:14,339 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: poll_exit
+2024-10-16 19:08:14,447 INFO    wandb-upload_0:94803 [upload_job.py:push():131] Uploaded file /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/config.yaml
+2024-10-16 19:08:14,642 INFO    wandb-upload_1:94803 [upload_job.py:push():131] Uploaded file /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/output.log
+2024-10-16 19:08:14,824 INFO    wandb-upload_4:94803 [upload_job.py:push():131] Uploaded file /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/requirements.txt
+2024-10-16 19:08:14,826 INFO    wandb-upload_2:94803 [upload_job.py:push():131] Uploaded file /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/conda-environment.yaml
+2024-10-16 19:08:15,355 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: poll_exit
+2024-10-16 19:08:15,358 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: poll_exit
+2024-10-16 19:08:16,383 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: poll_exit
+2024-10-16 19:08:16,384 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: poll_exit
+2024-10-16 19:08:17,416 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: poll_exit
+2024-10-16 19:08:17,418 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: poll_exit
+2024-10-16 19:08:18,429 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: status_report
+2024-10-16 19:08:18,441 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: poll_exit
+2024-10-16 19:08:18,444 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: poll_exit
+2024-10-16 19:08:19,445 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: poll_exit
+2024-10-16 19:08:19,448 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: poll_exit
+2024-10-16 19:08:19,500 INFO    wandb-upload_3:94803 [upload_job.py:push():131] Uploaded file /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/files/wandb-summary.json
+2024-10-16 19:08:19,715 INFO    Thread-11 (_thread_body):94803 [sender.py:transition_state():613] send defer: 11
+2024-10-16 19:08:19,718 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: defer
+2024-10-16 19:08:19,719 INFO    HandlerThread:94803 [handler.py:handle_request_defer():172] handle defer: 11
+2024-10-16 19:08:19,722 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: defer
+2024-10-16 19:08:19,722 INFO    SenderThread:94803 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-10-16 19:08:19,722 INFO    SenderThread:94803 [file_pusher.py:join():181] waiting for file pusher
+2024-10-16 19:08:19,723 INFO    SenderThread:94803 [sender.py:transition_state():613] send defer: 12
+2024-10-16 19:08:19,723 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: defer
+2024-10-16 19:08:19,724 INFO    HandlerThread:94803 [handler.py:handle_request_defer():172] handle defer: 12
+2024-10-16 19:08:19,725 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: defer
+2024-10-16 19:08:19,726 INFO    SenderThread:94803 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-10-16 19:08:19,726 INFO    SenderThread:94803 [file_stream.py:finish():595] file stream finish called
+2024-10-16 19:08:20,014 INFO    SenderThread:94803 [file_stream.py:finish():599] file stream finish is done
+2024-10-16 19:08:20,014 INFO    SenderThread:94803 [sender.py:transition_state():613] send defer: 13
+2024-10-16 19:08:20,015 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: defer
+2024-10-16 19:08:20,015 INFO    HandlerThread:94803 [handler.py:handle_request_defer():172] handle defer: 13
+2024-10-16 19:08:20,017 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: defer
+2024-10-16 19:08:20,018 INFO    SenderThread:94803 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-10-16 19:08:20,018 INFO    SenderThread:94803 [sender.py:transition_state():613] send defer: 14
+2024-10-16 19:08:20,019 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: defer
+2024-10-16 19:08:20,021 INFO    HandlerThread:94803 [handler.py:handle_request_defer():172] handle defer: 14
+2024-10-16 19:08:20,022 DEBUG   SenderThread:94803 [sender.py:send():380] send: final
+2024-10-16 19:08:20,023 DEBUG   SenderThread:94803 [sender.py:send():380] send: footer
+2024-10-16 19:08:20,024 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: defer
+2024-10-16 19:08:20,024 INFO    SenderThread:94803 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-10-16 19:08:20,027 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: poll_exit
+2024-10-16 19:08:20,032 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: poll_exit
+2024-10-16 19:08:20,033 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: poll_exit
+2024-10-16 19:08:20,038 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: poll_exit
+2024-10-16 19:08:20,039 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: server_info
+2024-10-16 19:08:20,047 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: server_info
+2024-10-16 19:08:20,054 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: get_summary
+2024-10-16 19:08:20,054 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: sampled_history
+2024-10-16 19:08:20,055 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: internal_messages
+2024-10-16 19:08:20,057 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: job_info
+2024-10-16 19:08:20,119 DEBUG   SenderThread:94803 [sender.py:send_request():407] send_request: job_info
+2024-10-16 19:08:20,121 INFO    MainThread:94803 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2024-10-16 19:08:20,121 INFO    MainThread:94803 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2024-10-16 19:08:20,122 INFO    MainThread:94803 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2024-10-16 19:08:20,123 DEBUG   HandlerThread:94803 [handler.py:handle_request():146] handle_request: shutdown
+2024-10-16 19:08:20,123 INFO    HandlerThread:94803 [handler.py:finish():866] shutting down handler
+2024-10-16 19:08:21,067 INFO    WriterThread:94803 [datastore.py:close():294] close: /home/lhan/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20241016_190556-bmqhqswx/run-bmqhqswx.wandb
+2024-10-16 19:08:21,122 INFO    SenderThread:94803 [sender.py:finish():1536] shutting down sender
+2024-10-16 19:08:21,123 INFO    SenderThread:94803 [file_pusher.py:finish():175] shutting down file pusher
+2024-10-16 19:08:21,123 INFO    SenderThread:94803 [file_pusher.py:join():181] waiting for file pusher

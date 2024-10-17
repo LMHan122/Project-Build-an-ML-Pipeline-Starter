@@ -17,7 +17,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.impute import SimpleImputer
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import OrdinalEncoder, FunctionTransformer
+from sklearn.preprocessing import OrdinalEncoder, FunctionTransformer, OneHotEncoder
 
 import wandb
 from sklearn.ensemble import RandomForestRegressor
@@ -76,7 +76,7 @@ def go(args):
     # Fit the pipeline sk_pipe by calling the .fit method on X_train and y_train
     # YOUR CODE HERE
     
-    sk_pipe.fit(X_train[processed_features], y_train)
+    sk_pipe.fit(X_train, y_train) #removing processed features
     ######################################
 
 
@@ -99,12 +99,11 @@ def go(args):
     ######################################
     # Save the sk_pipe pipeline as a mlflow.sklearn model in the directory "random_forest_dir"
     # HINT: use mlflow.sklearn.save_model
-    export_path = "random_forest_dir"
+
     signature = mlflow.models.infer_signature(X_val, y_pred)
     mlflow.sklearn.save_model(
-        # YOUR CODE HERE
         sk_pipe,
-        export_path,
+        "random_forest_dir",
         signature = signature,
         input_example = X_train.iloc[:5]
     )

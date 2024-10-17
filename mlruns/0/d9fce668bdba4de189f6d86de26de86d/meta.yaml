@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d9fce668bdba4de189f6d86de26de86d/artifacts
+end_time: 1729121292171
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d9fce668bdba4de189f6d86de26de86d
+run_name: vaunted-stag-445
+run_uuid: d9fce668bdba4de189f6d86de26de86d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729121273190
+status: 4
+tags: []
+user_id: lhan

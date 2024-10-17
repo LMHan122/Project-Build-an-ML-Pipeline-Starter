@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d5f33a8207a646c3b0c9a47b3f94bf10/artifacts
+end_time: 1729121328327
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d5f33a8207a646c3b0c9a47b3f94bf10
+run_name: amazing-shrike-267
+run_uuid: d5f33a8207a646c3b0c9a47b3f94bf10
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729121311365
+status: 4
+tags: []
+user_id: lhan

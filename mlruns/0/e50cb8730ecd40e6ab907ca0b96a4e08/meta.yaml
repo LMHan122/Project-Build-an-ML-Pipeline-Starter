@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e50cb8730ecd40e6ab907ca0b96a4e08/artifacts
+end_time: 1729121311227
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e50cb8730ecd40e6ab907ca0b96a4e08
+run_name: indecisive-elk-513
+run_uuid: e50cb8730ecd40e6ab907ca0b96a4e08
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729121292317
+status: 4
+tags: []
+user_id: lhan

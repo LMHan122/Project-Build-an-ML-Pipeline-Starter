@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f506862849d6443cb2dfe0132ba0691e/artifacts
+end_time: 1729123545233
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f506862849d6443cb2dfe0132ba0691e
+run_name: overjoyed-asp-411
+run_uuid: f506862849d6443cb2dfe0132ba0691e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729123443153
+status: 4
+tags: []
+user_id: lhan
