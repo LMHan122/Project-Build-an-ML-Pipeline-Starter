@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/34464b90251f4ee197353a23d81c5b2d/artifacts
+end_time: 1729132003699
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 34464b90251f4ee197353a23d81c5b2d
+run_name: dapper-chimp-700
+run_uuid: 34464b90251f4ee197353a23d81c5b2d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729131487665
+status: 4
+tags: []
+user_id: lhan

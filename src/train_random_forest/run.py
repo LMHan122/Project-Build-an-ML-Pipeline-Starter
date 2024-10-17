@@ -92,6 +92,17 @@ def go(args):
 
     logger.info("Exporting model")
 
+    #feature engineering
+    x_val['name'].fillna('', inplace=True).astype(str)
+    x_val['last_review'].fillna('2010-01-01', inplace=True)
+    x_val['last_review'] = pd.to_datetime(x_val['last_review'], format='%Y-%m-%d')
+    x_val['host_name'].fillna('', inplace=True).astype(str)
+    x_val['neighbourhood_group'].astype('category')
+    x_val['neighbourhood'].astype('category')
+
+
+
+
     # Save model package in the MLFlow sklearn format
     if os.path.exists("random_forest_dir"):
         shutil.rmtree("random_forest_dir")
@@ -102,7 +113,7 @@ def go(args):
     print('****** x_val data types')
     print(X_val.dtypes)
     print('******')
-    signature = mlflow.models.infer_signature(X_val, y_pred)
+    signature = mlflow.models.infer_signature(X_val[processed_features], y_pred)
     mlflow.sklearn.save_model(
         sk_pipe,
         "random_forest_dir",

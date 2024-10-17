@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3ead3e3dd1854b54870641bffd5e591f/artifacts
+end_time: 1729131577397
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3ead3e3dd1854b54870641bffd5e591f
+run_name: blushing-carp-815
+run_uuid: 3ead3e3dd1854b54870641bffd5e591f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729131492176
+status: 4
+tags: []
+user_id: lhan

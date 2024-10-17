@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lhan/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f667ce148d9344d6afe4bc5367cdd741/artifacts
+end_time: 1729132003067
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f667ce148d9344d6afe4bc5367cdd741
+run_name: loud-shark-311
+run_uuid: f667ce148d9344d6afe4bc5367cdd741
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729131844287
+status: 4
+tags: []
+user_id: lhan
